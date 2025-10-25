@@ -1,0 +1,27 @@
+.img{
+   width: 24rem;
+}
+
+.scroll_bar {
+  display: flex;
+  gap: 2rem;
+  overflow-x: auto;
+  
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none;
+  -ms-overflow-style: none; 
+}
+
+.scroll_bar::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* Для каждого элемента внутри */
+.scroll_bar > * {
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  flex: 0 0 auto;
+}

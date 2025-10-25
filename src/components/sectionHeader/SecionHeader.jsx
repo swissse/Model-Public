@@ -4,8 +4,6 @@ const SecionHeader = (params) => {
   return (
     <>
       <Header/>
-
-      
     </>
   )
 }

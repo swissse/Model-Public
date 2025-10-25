@@ -5,7 +5,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Anastasia Zhidkikh', 
    },
    {
       id: 2,
@@ -13,7 +14,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Nastya Wolf', 
    },
    {
       id: 3,
@@ -21,7 +23,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Masha Demekhina', 
    },
    {
       id: 4,
@@ -29,7 +32,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Liza Adamenko', 
    },
    {
       id: 5,
@@ -37,7 +41,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Daria Semenova', 
    },
    {
       id: 6,
@@ -45,7 +50,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder:  'Nastya Koteneva', 
    },
    {
       id: 7,
@@ -53,7 +59,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Masha Femekhina', 
    },
    {
       id: 8,
@@ -61,7 +68,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Kira Maleeva', 
    },
    {
       id: 9,
@@ -69,7 +77,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Ekaterina Ivanchina', 
    },
    {
       id: 10,
@@ -77,7 +86,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Katya Lenskaya', 
    },
    {
       id: 11,
@@ -85,7 +95,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Masha Memekhina', 
    },
    {
       id: 12,
@@ -93,7 +104,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Luba Gulaya', 
    },
    {
       id: 13,
@@ -101,7 +113,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Ekaterina Kvanchina', 
    },
    {
       id: 14,
@@ -109,7 +122,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Marianna', 
    },
    {
       id: 15,
@@ -117,7 +131,8 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Tanya Reutt', 
    },
    {
       id: 16,
@@ -125,6 +140,7 @@ export const models_data_list  = [
       height: 180,
       parameters: '82-61-89',
       foot_size: 40,
-      hair_color: 'Блонд'
+      hair_color: 'Блонд',
+      images_folder: 'Ksenia Vasilchenko', 
    },
 ]

@@ -1,0 +1,13 @@
+.models_list {
+   display: flex;
+   flex-flow: wrap;
+   justify-content: center;
+   gap: 2rem;
+}
+
+@media (min-width: 1440px) {
+   .models_list {
+      justify-content: space-between;
+   }
+}
+

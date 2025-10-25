@@ -1,3 +1,4 @@
+import Header from "../components/header/Header"
 import SecionHeader from "../components/sectionHeader/secionHeader"
 
 

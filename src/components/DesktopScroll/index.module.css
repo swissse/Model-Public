@@ -1,0 +1,51 @@
+.desktop_scroll {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 80px;
+   margin-block: 100px;
+
+   button{
+      box-sizing: content-box;
+      background: transparent;
+      border-radius: 100%;
+      padding: 10px;
+      width: 42px;
+      height: 42px;
+      border: none;
+      border: 1px solid transparent;
+      transition: border .3s ease-in-out;
+   }
+
+   button:hover{
+      border: 1px solid var(--gray);
+   }
+}
+
+.right {
+   rotate: 180deg;
+}
+
+.scroll {
+   width: 1110px;
+   overflow-x: scroll;
+
+   scrollbar-width: none;
+   -ms-overflow-style: none;
+}
+
+.scroll_bar::-webkit-scrollbar {
+   display: none;
+}
+
+.scroll_img {
+   display: flex;
+   gap: 30px;
+   scroll-behavior: smooth;
+   transition: all .7s ease-in-out;
+
+   img {
+      min-width: 540px;
+      height: 650px;
+   }
+}
