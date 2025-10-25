@@ -1,0 +1,48 @@
+.heading{
+   display: flex;
+   flex-flow: column;
+   text-align: center;
+   justify-content: center;
+}
+
+.title {
+   font-size: 2rem;
+   font-weight: 550;
+   text-align: center;
+}
+
+.params {
+   display: flex;
+   flex-flow: column;
+   text-align: center;
+   gap: 1rem;
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+   font-size: 1.4rem;
+
+   div {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+
+      p {
+         color: var(--gray);
+      }
+   }
+}
+
+.inst{
+   padding: 9px;
+   border-radius: 100%;
+   border: 1px solid var(--gray);
+   margin: auto;
+
+   img{
+      width: 24px;
+      height: 24px;
+   }
+}
+
+.strip{
+   margin-block: 2rem;
+}

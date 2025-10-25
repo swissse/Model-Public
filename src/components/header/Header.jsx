@@ -1,15 +1,25 @@
+import { useNavigate } from 'react-router'
 import s from './header.module.css'
 
-const Header = ({ setOpen }) => {
+const Header = ({ isBlack }) => {
+  const navigate = useNavigate()
   return (
-    <div className={s.header}>
-      <img src="src/assets/main/logo.png" alt="logo" />
-      <nav onClick={() => setOpen(true)} className={s.nav}>
-        <div className={s.nav__burger}></div>
-        <div className={s.nav__burger}></div>
-        <div className={s.nav__burger}></div>
-      </nav>
-    </div>
+    <>
+      <div className={s.header}>
+        <button onClick={() => navigate(-1)} className={s.back_button}>
+          {!isBlack
+            ? <img src="/images/logo.png" alt="logo" />
+            : <img src='/images/blackLogo.png' alt="logo" />}
+        </button>
+        <nav className={s.nav}>
+          <div className={s.nav__burger}></div>
+          <div className={s.nav__burger}></div>
+          <div className={s.nav__burger}></div>
+        </nav>
+      </div>
+      {isBlack && <hr className={s.strip} />}
+
+    </>
   )
 }
 

@@ -1,3 +1,4 @@
+import Header from "../components/header/Header"
 import { use } from "react"
 import NewFaces from "../components/NewFaces/NewFaces"
 import NewsSlider from "../components/NewsSlider/NewsSlider"

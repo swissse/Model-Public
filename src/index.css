@@ -14,6 +14,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  --black : #141313;
+  --gray: #AFAFAF;
+  color: var(--black);
 }
 
 a {
@@ -24,8 +28,17 @@ li {
   list-style: none;
 }
 
+hr{
+  border: 1px solid var(--gray);
+}
+
 html {
   font-size: 62.5%;
+}
+
+body {
+  margin: auto;
+  max-width: 1440px;
 }
 
 body > * {
@@ -34,4 +47,15 @@ body > * {
 
 body > *:first-child {
   padding: 0;
+}
+
+@media (min-width: 1024px) {
+  body>* {
+    max-width: 1440px;
+    padding: 0 15px;
+  }
+
+  html {
+    /* font-size: 69.5%; Теперь 1rem = 14px (87.5% от 16px) */
+  }
 }
