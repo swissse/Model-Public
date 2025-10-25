@@ -1,0 +1,49 @@
+.NewsSlider {
+  display: flex;
+  flex-direction: column;
+
+  .NewsSlider__container {
+    display: flex;
+    gap: 2rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    margin-left: 1.5rem;
+    scroll-snap-type: x mandatory;
+
+    .NewsSlider__card {
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      .card__date {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: #4B4B4B;
+        margin-bottom: 1rem;
+      }
+
+      .card__name {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: #141313;
+        margin-block: 1.5rem 1rem;
+        letter-spacing: -0.64px;
+      }
+
+      .card__text {
+        font-family: 'Inter', sans-serif;
+        font-size: 1.4rem;
+        font-weight: 400;
+        color: #4B4B4B;
+        letter-spacing: -0.56px;
+      }
+    }
+    .NewsSlider__card:last-child {
+      margin-right: 1.5rem;
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}

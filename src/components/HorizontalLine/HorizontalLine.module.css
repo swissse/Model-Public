@@ -1,0 +1,16 @@
+.horizontal__Line {
+  height: 1px;
+  background: #D9D9D9;
+  margin-block: 0 2rem;
+  margin: 0 2rem 2rem 1.5rem;
+}
+
+.NewsSlider__h {
+  font-family: 'HelveticaNeueCyrRoman', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #141313;
+  margin-block: 7rem 1.5rem;
+  letter-spacing: -0.8px;
+  padding: 0 1.5rem;
+}

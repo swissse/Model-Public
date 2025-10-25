@@ -1,10 +1,10 @@
 import s from './header.module.css'
 
-const Header = () => {
+const Header = ({ setOpen }) => {
   return (
     <div className={s.header}>
       <img src="src/assets/main/logo.png" alt="logo" />
-      <nav className={s.nav}>
+      <nav onClick={() => setOpen(true)} className={s.nav}>
         <div className={s.nav__burger}></div>
         <div className={s.nav__burger}></div>
         <div className={s.nav__burger}></div>
