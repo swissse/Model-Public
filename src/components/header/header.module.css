@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding-block: 1rem;
+  padding-inline: 1.5rem;
 }
 
 .nav {
@@ -13,13 +14,14 @@
 }
 
 .nav__burger {
-  background: #FFFFFF;
+  background: black;
   height: 1px;
   width: 20px;
 }
 
 .strip{
   margin-bottom: 2rem;
+  margin-inline: 1.5rem;
 }
 
 .back_button{

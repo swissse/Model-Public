@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router'
 import s from './header.module.css'
 
-const Header = ({ isBlack }) => {
+const Header = ({ isBlack, setOpen }) => {
   const navigate = useNavigate()
   return (
     <>
@@ -11,7 +11,7 @@ const Header = ({ isBlack }) => {
             ? <img src="/images/logo.png" alt="logo" />
             : <img src='/images/blackLogo.png' alt="logo" />}
         </button>
-        <nav className={s.nav}>
+        <nav onClick={() => setOpen(true)} className={s.nav}>
           <div className={s.nav__burger}></div>
           <div className={s.nav__burger}></div>
           <div className={s.nav__burger}></div>
